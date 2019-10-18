@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LoginPage</title>
+    <style>
+        .center {
+            margin: auto;
+            width: 60%;
+
+
+            border-top: 1px dotted #fcbd58;
+            display: block;
+
+            clear: left;
+        }
+
+        /*.error {
+               color: red;
+           background-color: #f2dede;
+            border-color: #fcbd58;
+            padding:1px 20px 1px 20px;
+        }*/
+         .highlight {
+            background-color: #fcbd58;
+             border-color: #A9F67D;
+             padding:1px 20px 1px 20px;
+        }
+      /*  .highlight2 {
+            background-color: #ffff23;
+        }*/
+
+    </style>
+
+</head>
+<body>
+<header style="background:#fcbd58; width: 1218.370px;height:80px;">
+    <img src="0.png"style=" padding-left: 50px;width:160.370px;height:80px;">
+</header>
+<div class="container well center" style="margin-top: 50px ; ">
+
+    <form id="register-form" >
+        <fieldset style="margin-left: 140px;width:350px;height:300px;">
+            <legend style="font-size: 20px;">Login</legend>
+
+            <div  style="padding-top:50px;">
+                <label  style="padding-right: 15px;">
+                    <span style=" font-family:' Times New Roman, Times, serif';font-size: 20px;">User Name</span>
+                </label>
+                <!--  <div class="form-group has-error">-->
+
+                <input  id="username" name="username"  type="text" >
+            </div>
+
+
+           <!-- <div >
+
+
+                <input  name="email" placeholder="Email address" type="text">
+            </div>-->
+
+            <div style="padding-top:20px;">
+                <label  style="padding-right: 26px;">
+                    <span style=" font-family:' Times New Roman, Times, serif';font-size: 20px;">Password</span>
+                </label>
+
+                <input  name="password" id="password" type="password" style="margin-left: 3px;" >
+            </div>
+
+            <div style="padding-top:50px;text-align: center ">
+                <input style=" background-color:#fcbd58;width: 90px;font-family:' Times New Roman, Times, serif';font-size: 20px;" class="btn btn-primary" id="submit-button" type="submit" value="Login">
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.min.js"></script><!-- it has all the method needed for  the validation-->
+
+<script src="LoginPageValidation.js"></script>
+<footer style="background:#fcbd58; width: 1218.370px;height:50px;margin-top:80px;">
+
+
+</footer>
+</body>
+</html>

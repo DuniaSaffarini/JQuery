@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Article</title>
+  <!--    Code Mirror CSS file. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="froala_editor.css">
+    <link rel="stylesheet" href="froala_style.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="emoticons.css">
+    <link rel="stylesheet" href="image_manager.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="line_breaker.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="char_counter.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="fullscreen.css">
+    <link rel="stylesheet" href="file.css">
+    <link href="dark.min.css" rel="stylesheet" type="text/css" />
+    <link href="gray.min.css" rel="stylesheet" type="text/css" />
+    <link href="royal.min.css" rel="stylesheet" type="text/css" />
+    <link href="dark.min.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        body { font-family: sans-serif; }
+        h1 { font-family: serif;
+            margin-bottom: 0;
+            width: 600px;
+            margin-left: 30px;
+            margin-right: auto;}
+
+
+        .image-wrapper {
+            width: 200px;
+            float: left;
+            padding-right: 25px;
+            padding-bottom: 10px;}
+
+        .image-wrapper img {
+            width: 100%;
+        }
+        .image-wrapper span {
+            font-family: sans-serif;
+            font-size: 10px;
+            color: #ccc;
+        }
+        .article-meta {
+            font-family: sans-serif;
+            color: #aaa;
+            font-size: 12px;
+        }
+        p {
+            font-size: 14px;
+        }
+        div#editor {
+            width: 81%;
+            margin: auto;
+            text-align: left;
+        }
+        .atwho-view-ul {
+            text-align: left;
+        }
+        .custom-layer {
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+
+            padding: 10px;
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body style="overflow:scroll;">
+<header style="background:#fcbd58; width: 1218.370px;height:80px;">
+    <img src="0.png"style=" padding-left: 50px; width:160.370px;height:80px;">
+</header>
+<article>
+    <!-- <h1>Create Article</h1>
+    <p class="article-meta"><strong>Author:</strong> DuniaSaffarini, <strong>Published:</strong> Yesterday</p>
+
+   <div class="image-wrapper">
+        <img src="https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022__340.jpg">
+        <span>Image source: The WEB</span>
+    </div>
+
+    <p>  A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) or allow selfing (fusion of sperm and egg from the same flower). Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds.
+    </p>-->
+<div style="padding-left:120px;padding-top:50px;">
+    <div>
+        <label style="padding-right:70px;height: 16px; font-family:' Times New Roman, Times, serif';">
+            <span >Title</span>
+        </label>
+
+        <input  id="title" name="title"  type="text"  style ="flow:left;  height: 16px;  margin-right: 50px;">
+
+        <select style="width:150px; height: 23px;font-family:' Times New Roman, Times, serif';">
+
+        <option value="volvo">Article 1</option>
+        <option value="saab">Article 2</option>
+        <option value="opel">Article 3</option>
+        <option value="audi">Article 4</option>
+    </select>
+    </div>
+</div>
+
+    <div id="editor">
+
+        <div id="edit" style="margin-top: 30px;">
+
+
+            <p>  A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) or allow selfing (fusion of sperm and egg from the same flower). Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds.
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>
+
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>
+
+    <script type="text/javascript" src="froala_editor.min.js"></script>
+
+    <script type="text/javascript" src="align.min.js"></script>
+    <script type="text/javascript" src="code_beautifier.min.js"></script>
+    <script type="text/javascript" src="code_view.min.js"></script>
+    <script type="text/javascript" src="font_size.min.js"></script>
+    <script type="text/javascript" src="font_family.min.js"></script>
+    <script type="text/javascript" src="image.min.js"></script>
+    <script type="text/javascript" src="image_manager.min.js"></script>
+    <script type="text/javascript" src="link.min.js"></script>
+    <script type="text/javascript" src="lists.min.js"></script>
+    <script type="text/javascript" src="paragraph_format.min.js"></script>
+    <script type="text/javascript" src="url.min.js"></script>
+    <script type="text/javascript" src="entities.min.js"></script>
+    <script type="text/javascript" src="save.min.js"></script>
+    <script src="https://app.codox.io/plugins/wave.client.js?apiKey=439242e8-c27d-4035-a197-ee011eca3ad6&app=froala" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        new FroalaEditor("#edit", {
+            toolbarButtons: [ ['bold', 'italic', 'underline', 'fontSize', 'fontFamily'], ['paragraphFormat', 'align', 'formatOL', 'formatUL', 'indent', 'outdent'], ['insertLink', 'insertImage', 'undo', 'redo', 'html'] ]
+        ,    theme: 'dark',
+            zIndex: 2003
+        })
+    </script>
+</article>
+
+<footer style="background:#fcbd58;  width: 1218.370px;height:50px;margin-top:80px;">
+
+
+</footer>
+</body>
+</html>
