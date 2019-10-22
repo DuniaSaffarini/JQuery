@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThirdPage</title>
+    <style>
+        .forecast {
+            margin: 0;
+            padding: .3rem;
+            background-color: #fde1b4;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+
+        .forecast > h1,
+        .day-forecast {
+            margin: .5rem;
+            padding: .3rem;
+            font-size: 1.2rem;
+        }
+
+        .day-forecast {
+            background: right/contain content-box border-box no-repeat url('rain.PNG') white;
+        }
+
+        .day-forecast > h2,
+        .day-forecast > p {
+            margin: .2rem;
+            font-size: 1rem;
+        }
+
+        .header {
+            background: #fcbd58;
+            width: 1218.370px;
+            height: 80px;
+        }
+
+        .img {
+            padding-left: 50px;
+            width: 160.370px;
+            height: 80px;
+        }
+
+        .set {
+            margin-top: 25px;
+            font-size: 20px;
+        }
+
+        .footer {
+            background: #fcbd58;
+            width: 1218.370px;
+            height: 50px;
+            margin-top: 168px;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <img class="img" src="logo.png">
+</header>
+<fieldset class="set">
+    <legend>List of Articles</legend>
+    <article class="forecast" style="margin-top: 30px">
+        <h1>Weather forecast for Seattle</h1>
+        <article class="day-forecast">
+            <h2>03 March 2018</h2>
+            <p>Rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>04 March 2018</h2>
+            <p>Periods of rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>05 March 2018</h2>
+            <p>Heavy rain.</p>
+        </article>
+    </article>
+
+</fieldset>
+<footer class="footer">
+
+
+</footer>
+</body>
+</html>
