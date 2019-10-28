@@ -14,13 +14,13 @@
  ))
 /***************** */
 
-interface Point{
+interface Points{
 x2:number,
 y2:number
 
 }
 
- let draw2 =(point:Point)=>{
+ let draw2 =(point:Points)=>{
 
     return(point.x2+point.y2);
 
